@@ -917,10 +917,10 @@ MonoBehaviour:
   ModPaths:
   - Name: TestPng
     Path: TestPng
-    FileName: Image.png
+    FileName: 
   - Name: TestMat
     Path: TestMat
-    FileName: Image.png
+    FileName: 
   ModsFilePath: 
 --- !u!1 &1778189222
 GameObject:
@@ -1115,5 +1115,5 @@ MonoBehaviour:
   image: {fileID: 1778189226}
   Mod: {fileID: 1651813415}
   ModName: TestPng
-  ModName2: TestMat
-  Mat: {fileID: 2100000, guid: b7ab2681bbeda444d87898d990f302f0, type: 2}
+  ModName2: 
+  Mat: {fileID: 0}
