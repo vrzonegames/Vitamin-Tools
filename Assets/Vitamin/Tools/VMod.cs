@@ -30,6 +30,8 @@ namespace Vitamin
             public string Name;
 
             public string Path;
+
+            public string FileName;
         }
 
         // Start is called before the first frame update
@@ -57,6 +59,14 @@ namespace Vitamin
             if (ModPath == Path.StreamingAssets)
             {
                 StreamingAssets();
+            }
+
+            for (int i = 0; i < ModPaths.Count; i++)
+            {
+                if (!Directory.Exists(ModsFilePath + "/" + ModPaths[i].Path))
+                {
+                    Directory.CreateDirectory(ModsFilePath + "/" + ModPaths[i].Path);
+                }
             }
         }
 
@@ -103,11 +113,11 @@ namespace Vitamin
             {
                 if (ModPaths[i].Name == ModName)
                 {
-                    string P = ModsFilePath + ModPaths[i].Path;
+                    string P = ModsFilePath + "/" + ModPaths[i].Path + "/" +  ModPaths[i].FileName;
                     
                     StartCoroutine(DownloadImageToRaw(P, image));
                     
-                    Debug.Log(ModsFilePath + ModPaths[i].Path);
+                    Debug.Log(ModsFilePath + "/" + ModPaths[i].Path + "/" + ModPaths[i].FileName);
                 }
                 
             }
@@ -119,11 +129,11 @@ namespace Vitamin
             {
                 if (ModPaths[i].Name == ModName)
                 {
-                    string P = ModsFilePath + ModPaths[i].Path;
+                    string P = ModsFilePath + "/" + ModPaths[i].Path + "/" +  ModPaths[i].FileName;
                     
                     StartCoroutine(DownloadImageToMat(P, mat));
                     
-                    Debug.Log(ModsFilePath + ModPaths[i].Path);
+                    Debug.Log(ModsFilePath + "/" + ModPaths[i].Path +  "/" + ModPaths[i].FileName);
                 }
                 
             }
