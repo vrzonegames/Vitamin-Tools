@@ -46,6 +46,10 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+      <a href="#Usage">Usage</a>
+      <ul>
+      <a href="#Credits">Credits</a>
+      <ul>
         
   
   </ol>
@@ -55,6 +59,15 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+
+
+<!-- Usage -->
+## Usage
+
+
+<!-- Credits -->
+## Credits
+
 
 
 
