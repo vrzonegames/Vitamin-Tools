@@ -32,7 +32,7 @@
   <p align="center">
     Vitamin Tool Is A Tool To Help You Add Simple Mods To Your Unity Game.
     <br />
-    <a href="https://github.com/vrzonegames/Vitamin-Tools/main/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/vrzonegames/Vitamin-Tools/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
