@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/vrzonegames/Vitamin-Tools">
-    <img src="images/Vitamin_Tools.png" alt="Logo" width="80" height="80">
+    <img src="images/Vitamin_Tools.png" alt="Logo" width="700" height="350">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
