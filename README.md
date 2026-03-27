@@ -60,67 +60,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-aaaaaaaaaaaaaaa
-aa
-
-a
-
-a
-
-a
-a
-
-
-a
-
-
-a
-a
-
-
-
-
-a
-a
-
-a
-
-a
-
-
-a
-a
-
-
-
-a
-
-a
-
-a
-
-aa
-
-a
-
-a
-
-a
-
-a
-
-a
-
-a
-
-a
-a
-
-a
-
-a
-
-
 <!-- Usage -->
 ## Usage
 
