@@ -65,10 +65,11 @@ Vitamin Tool Is A Tool To Help You Add Simple Mods To Your Unity Game.
 <!-- Usage -->
 ## Usage
 
+Go To Releases And Get The "Vitamin Tools.unitypackage" And Drag It In To Unity.
 
 <!-- Credits -->
 ## Credits
 
-
+To https://www.youtube.com/@elprofesorkudo For Help With Asset Bundles.
 
 
