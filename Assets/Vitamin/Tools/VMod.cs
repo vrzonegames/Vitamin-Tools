@@ -159,5 +159,17 @@ namespace Vitamin
             else
                 I.mainTexture = ((DownloadHandlerTexture) request.downloadHandler).texture;
         }
+        
+        //AssetBundle Loaders 
+        
+        IEnumerator DownloadAssetBundle(string BundleUrl, AssetBundle A)
+        {   
+            UnityWebRequest request = UnityWebRequestAssetBundle.GetAssetBundle(BundleUrl);
+            yield return request.SendWebRequest();
+            if(request.isNetworkError || request.isHttpError) 
+                Debug.Log(request.error);
+            else
+                A = ((DownloadHandlerAssetBundle) request.downloadHandler).assetBundle;
+        }
     }
 }
