@@ -60,6 +60,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+Vitamin Tool Is A Tool To Help You Add Simple Mods To Your Unity Game. 
+
 <!-- Usage -->
 ## Usage
 
