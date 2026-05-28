@@ -23,7 +23,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://vrzonegames.github.io/Vitamin%20Tools.html">
+  <a href="https://vrzonegames.github.io/Vitamin-Tools.html">
     <img src="images/Vitamin_Tools.png" alt="Logo" width="700" height="350">
   </a>
 
