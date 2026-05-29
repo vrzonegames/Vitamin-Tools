@@ -6,6 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Vitamin/Demo/Demo.unity
-    guid: ef1428c2d8d4d334197bef95118fcde7
-  m_configObjects: {}
+    path: Assets/CS/New Scene.unity
+    guid: 281cb097adee9a1489acb32e12719f37
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 145d991dcb933bf48a2a10eabdf84d4a,
+      type: 2}

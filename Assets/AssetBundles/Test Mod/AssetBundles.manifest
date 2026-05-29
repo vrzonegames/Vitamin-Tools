@@ -1,0 +1,13 @@
+ManifestFileVersion: 0
+CRC: 3353963515
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: obj
+      Dependencies: {}
+    Info_1:
+      Name: scene
+      Dependencies: {}
+    Info_2:
+      Name: scenemod
+      Dependencies: {}

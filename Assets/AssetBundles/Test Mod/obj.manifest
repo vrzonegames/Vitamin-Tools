@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 3447030813
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7bed7de13f3c82b3c395b5b985ed9609
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 550750953b0380b7ff4f39bf7e2b5b7f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 898f31f4bf9c6884b96efc3aed72a968, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Vitamin/Demo/Test Mod/Test Mod.asset
+Dependencies: []

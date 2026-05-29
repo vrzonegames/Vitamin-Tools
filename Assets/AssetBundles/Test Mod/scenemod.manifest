@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3279393987
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 752eb9297ab2e408bdf7dc078306f391
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d22856c066010dff2f0a55168c0a086a
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: 5b2c17d83f718724992811a4d4cf66ed, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Vitamin/Demo/Test Mod/Test Mod 1.asset
+Dependencies: []
