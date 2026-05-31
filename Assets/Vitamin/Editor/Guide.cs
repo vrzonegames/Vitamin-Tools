@@ -35,7 +35,7 @@ public class Guide : EditorWindow
 
         GUILayout.Space(20);
 
-        GUILayout.TextField("Make 3 AssetBundles 'obj', 'scenemod', and 'scene'");
+        GUILayout.Label("Make A SceneMod ScriptableObject Fill In The Name And Scene Path Than Open The Create Mods Window Fill In The ScriptableObject, And AddressableAssetGroup Than Hit Build", GUILayout.Width(position.width));
 
 
     }

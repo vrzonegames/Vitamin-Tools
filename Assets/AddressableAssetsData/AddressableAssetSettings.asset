@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
-  m_DefaultGroup: 991c57b01fa29c848be8410b61e430c1
+  m_DefaultGroup: a522a4f99d73d514daefcf51ead0dc22
   m_currentHash:
     serializedVersion: 2
-    Hash: 370b232aec242a2317c5fd6af320bf2a
+    Hash: ed9b4d5792a34ebcc3b52528f15c7ca8
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_overridePlayerVersion: 
   m_GroupAssets:
   - {fileID: 11400000, guid: 382a737befd6a9543b537abece0ca45b, type: 2}
-  - {fileID: 11400000, guid: c6cb6d71517fede4a9176b05f4692796, type: 2}
+  - {fileID: 11400000, guid: f50fb2c5d3e06b443ac89c72d90396d4, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -60,7 +60,7 @@ MonoBehaviour:
       - m_Id: 85ef385d901933044aa3504d8e7590e2
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: d5d173475809f5e47b405451ffe2ea1b
-        m_Value: C:/Users/vrzon/AppData/LocalLow/vrzonegames/Vitamin Tools/Export/TestMod/StandaloneWindows
+        m_Value: C:/Users/vrzon/AppData/LocalLow/vrzonegames/Vitamin Tools/Export/Test/StandaloneWindows
       - m_Id: 7aa9c2dc318a6954a8519635a79f0e24
         m_Value: '{UnityEngine.Application.persistentDataPath}/Mods/{LOCAL_FILE_NAME}/StandaloneWindows'
       - m_Id: f4ede26a88e97f6459bb3911d4d18f30

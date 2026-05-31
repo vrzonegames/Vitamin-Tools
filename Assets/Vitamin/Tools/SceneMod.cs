@@ -8,6 +8,6 @@ using UnityEngine;
 public class SceneMod : ScriptableObject
 {
     public string ModName;
-    public string SceneName;
+    public string ScenePath;
     public string addressableKey;
 }

@@ -25,13 +25,16 @@ public class CreateMod : EditorWindow
     bool showConfiguredGamemodes = true;
     bool showPlatforms = true;
     bool openAfterExport;
-    
+
+    string GroupName;
 
 
     List<string> configuredGamemodes = new List<string>();
     List<string> configuredPlatforms = new List<string> { "Windows", "Android" };
     
     SceneMod profile;
+    
+    AddressableAssetGroup Settings;
 
     
     [MenuItem("Vitamin Tools/Create Mods")]
@@ -62,13 +65,26 @@ public class CreateMod : EditorWindow
         GUILayout.Space(20);
         
         profile = EditorGUILayout.ObjectField("Mod Profile", profile, typeof(SceneMod), false) as SceneMod;
+        
 
         if (profile)
         {
             ModName = profile.ModName;
-            modPath = profile.SceneName;
+            modPath = profile.ScenePath;
+            GUILayout.Label(ModName);
+        }
+        
+        GUILayout.Space(20);
+        
+        Settings = EditorGUILayout.ObjectField("Settings Profile", Settings, typeof(AddressableAssetGroup), false) as AddressableAssetGroup;
+
+        if (Settings)
+        {
+            GroupName = Settings.Name;
+            GUILayout.Label(GroupName);
         }
             
+        GUILayout.Space(20);
         GUILayout.Space(20);
 
         Build();
@@ -110,7 +126,7 @@ public class CreateMod : EditorWindow
     {
         if (Directory.Exists(Application.persistentDataPath + "/Export/" + FormatPath(ModName) + "/" + EditorUserBuildSettings.selectedStandaloneTarget))
             DeleteFolder(Application.persistentDataPath + "/Export/" + FormatPath(ModName) + "/" + EditorUserBuildSettings.selectedStandaloneTarget);
-        var group = AddressableAssetSettingsDefaultObject.Settings.FindGroup("Default Local Group");
+        var group = AddressableAssetSettingsDefaultObject.Settings.FindGroup(GroupName);
         var guid = AssetDatabase.AssetPathToGUID(modPath);
         if (group == null || guid == null)
         {

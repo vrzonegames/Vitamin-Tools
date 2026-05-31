@@ -15,8 +15,14 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_Data:
     m_SerializedData: []
-  m_GUID: 991c57b01fa29c848be8410b61e430c1
-  m_SerializeEntries: []
+  m_GUID: a522a4f99d73d514daefcf51ead0dc22
+  m_SerializeEntries:
+  - m_GUID: baeab597139715d47ae31eda908eb40b
+    m_Address: Assets/Vitamin/Demo/Test Mod/Test Mod.unity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Map
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: dadb0ed79426c6b4b87a23c425af01b2, type: 2}
   m_SchemaSet:

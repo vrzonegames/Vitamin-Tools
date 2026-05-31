@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5834b5087d578d24c926ce20cd31e6d6, type: 3}
-  m_Name: Default Local Group_ContentUpdateGroupSchema
+  m_Script: {fileID: 11500000, guid: 5b2c17d83f718724992811a4d4cf66ed, type: 3}
+  m_Name: New Scene Mod
   m_EditorClassIdentifier: 
-  m_Group: {fileID: 11400000, guid: f50fb2c5d3e06b443ac89c72d90396d4, type: 2}
-  m_StaticContent: 0
+  ModName: Test
+  ScenePath: Assets/Vitamin/Demo/Test Mod/Test Mod.unity
+  addressableKey: 
