@@ -29,49 +29,6 @@
 
   <h3 align="center">Vitamin-Tools</h3>
 
-  <p align="center">
-    Vitamin Tool Is A Tool To Help You Add Simple Mods To Your Unity Game.
-    <br />
-    <a href="https://github.com/vrzonegames/Vitamin-Tools/blob/main/README.md"><strong>Explore the docs »</strong></a>
-    <br />
-  </p>
-</div>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-      <a href="#Usage">Usage</a>
-      <ul>
-      <a href="#Credits">Credits</a>
-      <ul>
-        
-  
-  </ol>
-</details>
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-Vitamin Tool Is A Tool To Help You Add Simple Mods To Your Unity Game. 
-
-<!-- Usage -->
-## Usage
-
-Go To Releases And Get The "Vitamin Tools.unitypackage" And Drag It In To Unity.
-
-<!-- Credits -->
-## Credits
-
-To https://www.youtube.com/@elprofesorkudo For Help With Asset Bundles.
-
-
 ## Star History
 
 <a href="https://www.star-history.com/?repos=vrzonegames%2FVitamin-Tools&type=date&legend=top-left">
@@ -81,4 +38,3 @@ To https://www.youtube.com/@elprofesorkudo For Help With Asset Bundles.
    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=vrzonegames/Vitamin-Tools&type=date&legend=top-left" />
  </picture>
 </a>
-
