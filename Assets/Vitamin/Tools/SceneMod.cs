@@ -9,4 +9,5 @@ public class SceneMod : ScriptableObject
 {
     public string ModName;
     public string SceneName;
+    public string addressableKey;
 }

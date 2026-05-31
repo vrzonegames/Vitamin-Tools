@@ -7,4 +7,5 @@ public class Mod : ScriptableObject
 {
     public string ModName;
     public GameObject Prefab;
+    public string addressableKey;
 }
