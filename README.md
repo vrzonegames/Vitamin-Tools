@@ -55,15 +55,6 @@
   </ol>
 </details>
 
-## Star History
-
-<a href="https://www.star-history.com/?repos=vrzonegames%2FVitamin-Tools&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vrzonegames/Vitamin-Tools&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=vrzonegames/Vitamin-Tools&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=vrzonegames/Vitamin-Tools&type=date&legend=top-left" />
- </picture>
-</a>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -80,4 +71,14 @@ Go To Releases And Get The "Vitamin Tools.unitypackage" And Drag It In To Unity.
 
 To https://www.youtube.com/@elprofesorkudo For Help With Asset Bundles.
 
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=vrzonegames%2FVitamin-Tools&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vrzonegames/Vitamin-Tools&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=vrzonegames/Vitamin-Tools&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=vrzonegames/Vitamin-Tools&type=date&legend=top-left" />
+ </picture>
+</a>
 
